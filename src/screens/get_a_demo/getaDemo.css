@@ -1,0 +1,85 @@
+ .getaDemo
+ {
+     position: relative;
+ }
+ .getaDemo img.background
+{
+    position: absolute;
+    top: -61%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    
+}
+
+.getaDemo .getaDemo_content 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 140px 0 250px;
+    
+}
+
+.getaDemo .getaDemo_content  .getaDemo_image 
+{
+    margin-left: -100px;
+}
+.getaDemo .getaDemo_content .getaDemo_form 
+{
+    
+    padding-top: 5px;
+    margin-left: -29px;
+}
+.getaDemo .getaDemo_content .getaDemo_form h2
+{
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 0;
+}
+.getaDemo .getaDemo_content .getaDemo_form h2 span
+{
+    font-weight: 700;
+}
+.getaDemo .getaDemo_content .getaDemo_form input
+{
+    display: block;
+    background-color: rgba(0, 17, 58, 1);
+    border: 1px solid #FFFFFF;
+    width: 324px;
+    height: 48px;
+    margin-top: 36px;
+    margin-bottom: 0;
+}
+.getaDemo .getaDemo_content .getaDemo_form input::placeholder
+{
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(136, 126, 165, 1);
+    padding: 16px;
+}
+.getaDemo .getaDemo_content .getaDemo_form .request
+{
+    display: block;
+    outline: none;
+    color: rgba(255, 255, 255, 1) ;
+    background: rgba(37, 107, 246, 1);
+    border: 1px solid #256BF6;
+    border-radius: 4px;
+    padding: 12px 32px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-top: 29px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

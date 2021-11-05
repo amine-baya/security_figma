@@ -1,0 +1,38 @@
+header
+{
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    
+}
+header .nav_content ul
+{
+    display: flex;
+    color: white;
+   align-items: center;
+   
+
+}
+
+header .nav_content ul li
+{
+    text-align: center;
+   margin: 0 30px;
+}
+
+header .nav_content ul li.btn
+{
+    padding: 12px 32px ;
+    background-color: rgb(35, 105, 246);
+    color: #FFFFFF;
+    margin-right: 0;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}

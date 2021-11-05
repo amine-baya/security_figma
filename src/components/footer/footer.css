@@ -1,0 +1,43 @@
+footer{
+  
+    padding: 70px 8%;
+    background: rgba(1, 21, 40, 1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer .footer_content ul
+{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+footer .footer_content ul li {
+    margin-right: 40px;
+    font-size: 12px;
+    font-weight: 500;
+}
+footer .footer_link div
+{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+}
+footer .footer_link ul
+{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+footer .footer_link ul li {
+    margin-left: 40px;
+   
+}
+
+footer .footer_link div
+{
+    color: rgba(255, 255, 255, 0.3);
+    text-align: right;
+}

@@ -1,0 +1,61 @@
+.thanks img.background
+{
+    transform: translateY(-220px);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    z-index: -1;
+}
+
+.thanks .thanks_content 
+{
+    margin: 220px 0 250px;
+    text-align: center;
+}
+.thanks .thanks_content img.img_content
+{
+    text-align: center;
+    transform: translateY(-5px);
+    margin-bottom: 12px;
+}
+
+.thanks .thanks_content h2
+{
+    font-size: 56px; 
+    font-weight: 300;
+    padding: 0;
+    width: 60%;
+    color: white;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+.thanks .thanks_content p
+{
+    
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.thanks_content .resources_logo
+{
+    display: flex;
+    justify-content: space-around;
+    background: #011528;
+    border: 1px solid #256BF6;
+    border-radius: 4px;
+    width: 164px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+
+
+.thanks_span{
+    font-weight: 700;
+
+}
+
+

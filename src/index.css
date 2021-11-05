@@ -1,3 +1,7 @@
+*
+{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,110 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, #051B50 0%, #00113A 68.22%), #000000; 
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container
+{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pointSvg
+{
+  position: fixed;
+  top: 160px;
+  left: 70px;
+}
+
+
+.point_cercls .home_one
+
+{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-77%, -75%);
+    border-radius: 50%;
+    z-index: 5;
+}
+.point_cercls .home_two
+
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-61%, -60%);
+    border-radius: 50%;
+    z-index: 4;
+
+}
+
+
+.point_cercls .home_three
+
+{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-57%, -56%);
+    border-radius: 50%;
+    z-index: 3;
+
+}
+
+.point_cercls .home_four
+
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55.5%, -55%);
+    border-radius: 50%;
+    z-index: 2;
+
+}
+
+.point_cercls .home_four.active
+{
+     border: 6px solid #5A91FF;
+  filter: blur(10px);
+}
+
+.point_cercls .home_three.active
+{
+     border: 6px solid #FFA641;
+  filter: blur(10px);
+}
+
+.point_cercls .home_two.active
+{
+     border: 6px solid #06D6A0;
+  filter: blur(10px);
+}
+
+.point_cercls .home_one.active
+{
+     border: 6px solid #F71735;
+  filter: blur(10px);
 }

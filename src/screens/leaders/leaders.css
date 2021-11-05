@@ -1,0 +1,100 @@
+
+
+.leaders .leadersbackground
+{
+    position: absolute;
+    top: 400px;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: -1;
+}
+.leaders .leaders_head{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    margin-top: 100px;
+}
+
+.leaders .leaders_head .leaders_head_content{
+    margin-top: 50px;
+}
+
+.leaders .leaders_head .leaders_head_content h2{
+    font-size: 48px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.leaders .leaders_head .leaders_head_content h2 span{
+    color: #FFA641;
+}
+
+.leaders .leaders_head .leaders_head_content h5{
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: white;
+    margin-top: -20px;
+}
+
+.leaders .leaders_head .leaders_head_content p
+{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.leaders .leaders_body
+{
+      background: linear-gradient(360deg, #051B50 0%, #00113A 0%), #000000; 
+      margin-top: 100px;
+      color: white;
+
+}
+.leaders .leaders_body .leaders_body_content
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+.leaders .leaders_body .leaders_body_content h4
+{
+    font-size: 18px;
+    margin-bottom: 57px;
+}
+
+.leaders .leaders_body .leaders_body_content p
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.leaders .leaders_body .leaders_body_content p.leaders_body_content_p
+{
+    transform: translateY(13px);
+}
+.leaders .leaders_body .main_p
+{
+    margin-top: 67px;
+    padding-bottom: 156px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 300;
+}
+
+.leaders .getaDemo .getaDemo_content 
+{
+    margin: 74px 0 69px;
+    overflow: hidden;
+}
+
+.leaders .getaDemo img.background
+{
+    position: absolute;
+    top: -65%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    height: 900px;
+    
+}
