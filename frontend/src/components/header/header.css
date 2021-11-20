@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap');
+header
+{
+    padding: 30px 5%;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: transparent; 
+    z-index: 100;  
+    background-color: #00113A;
+    opacity: .93;
+    top: 0;
+}
+
+header .logo
+{
+    cursor: pointer; 
+}
+
+header .open_menu{
+    display: none;
+    
+}
+
+header .nav_content ul
+{
+    display: flex;
+    color: white;
+   align-items: center;
+
+}
+
+header .nav_content ul li
+{
+    text-align: center;
+   margin: 0 30px; 
+}
+header .nav_content ul li a
+{
+    text-align: center;
+   text-decoration: none;
+   color: #FFFFFF;
+}
+header .nav_content ul li.btn_resources{
+    cursor: pointer;
+}
+ 
+header .nav_content ul li.btn
+{
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 12px 32px ;
+    background-color: rgb(35, 105, 246);
+    color: #FFFFFF;
+    margin-right: 0;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/***************************MEDIA*************************/
+
+@media (max-width:992px ) {
+ 
+header
+{
+    padding: 20px 5%;   
+    overflow-x: hidden;
+}
+
+header .open_menu{
+    display: block;
+    color: #FFFFFF;
+    cursor: pointer; 
+}
+header .logo .logoSvg svg
+{
+    width: 170px; 
+    height: 40px;
+}
+header .nav_content 
+{
+   display: none; 
+}
+
+/***********/
+ .menu_side{
+    width: 300px;
+    height: 100vh;
+    background: #FFF;
+    opacity: 1;
+    z-index: 1010;
+    position: fixed;
+    top: 0;
+    transition: all 1s ease-in-out;
+    
+}
+.menu_side_hide{
+    right: -100%;
+}
+.menu_side_show{
+    right: 0;
+}
+.menu_side .close_menu{
+    color: #fff;
+    position: fixed;
+    transform: translate(-20px,10px);
+    cursor: pointer;
+    display: block;
+}
+.menu_side  .close_menu_hide{
+    display: none;
+}
+.menu_side  .close_menu_show{
+    display: block;
+}
+ .menu_side ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(105, 94, 94);
+    align-items: center;
+}
+ .menu_side ul li
+{
+    text-align: center;
+    margin-top: 40px;   
+}
+ .menu_side ul li a
+{
+    text-align: center;
+   text-decoration: none;
+   color: rgb(0, 0, 0); 
+}
+ .menu_side ul li.btn_resources{
+    cursor: pointer;
+}
+ 
+ .menu_side ul li.btn
+{
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 12px 32px ;
+    background-color: rgb(35, 105, 246);
+    color: #FFFFFF;
+    margin-right: 0;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 10px;
+}
+/*****************/
+
+ }
+
+ @media (min-width: 769px) and (max-width: 992px ) {
+  
+ }
+ @media (min-width: 993px) and (max-width: 1250px ) {
+    
+ }

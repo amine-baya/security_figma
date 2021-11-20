@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap');
+ .getaDemo
+ {
+     position: relative;
+     font-family: 'Manrope', sans-serif;
+     letter-spacing: 0.04rem;
+ }
+ .getaDemo img.background
+{
+    position: absolute;
+    top: -61%;
+    left: 50%;
+    transform: translateX(-50%);  
+    z-index: -1;
+}
+
+.getaDemo .getaDemo_content 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 140px 0 250px;
+    
+}
+
+.getaDemo .getaDemo_content  .getaDemo_image 
+{
+    margin-left: -100px;
+}
+.getaDemo .getaDemo_content .getaDemo_form 
+{
+    
+    padding-top: 5px;
+    margin-left: -29px;
+}
+.getaDemo .getaDemo_content .getaDemo_form h2
+{
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 0;
+}
+
+.getaDemo .getaDemo_content .getaDemo_form h2 span.br
+{
+   display: block;
+}
+.getaDemo .getaDemo_content .getaDemo_form h2 span.wondering_span
+{
+    font-weight: 700;
+}
+.getaDemo .getaDemo_content .getaDemo_form input
+{
+    display: block;
+    background-color: rgba(0, 17, 58, 1);
+    border: 1px solid #FFFFFF;
+    width: 324px;
+    height: 48px;
+    margin-top: 36px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+.getaDemo .getaDemo_content .getaDemo_form input::placeholder
+{
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(136, 126, 165, 1);
+    padding: 16px 3px;
+    transition: opacity .5s ease-in-out;
+}
+.getaDemo .getaDemo_content .getaDemo_form input:focus::placeholder 
+{
+   opacity: 0;
+}
+.getaDemo .getaDemo_content .getaDemo_form .request
+{
+    display: block;
+    outline: none;
+    color: rgba(255, 255, 255, 1) ;
+    background: rgba(37, 107, 246, 1);
+    border: 1px solid #256BF6;
+    border-radius: 4px;
+    padding: 12px 32px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-top: 29px;
+    cursor: pointer;
+    letter-spacing: 0.04rem;
+}
+
+.getaDemo .getaDemo_content .getaDemo_form  
+{
+    text-decoration: none;
+    color: #FFF;
+    letter-spacing: 0.05rem;
+}
+
+
+/*****************************************media**********************************/
+
+
+@media  (max-width: 575px ) {
+
+    .getaDemo img.background
+    {
+        top: -10%;
+    }
+    .getaDemo .getaDemo_content 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .getaDemo .getaDemo_content  .getaDemo_image svg
+    {
+        width: 400px;
+        margin-left: 10%;
+    }
+    .getaDemo .getaDemo_content .getaDemo_form 
+    {
+        
+        padding-top: 5px;
+        margin-left: 20px;
+    }
+    .getaDemo .getaDemo_content .getaDemo_form h2
+    {
+        font-size: 26px; 
+        text-align: center;
+    }
+    .getaDemo .getaDemo_content .getaDemo_form  form
+    {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .getaDemo .getaDemo_content .getaDemo_form input
+    {
+        width: 250px;
+        
+      
+    }
+    .getaDemo .getaDemo_content .getaDemo_form input::placeholder
+    {
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(136, 126, 165, 1);
+        padding: 16px 3px;
+        transition: opacity .5s ease-in-out;
+    }
+    .getaDemo .getaDemo_content .getaDemo_form input:focus::placeholder 
+    {
+       opacity: 0;
+    }
+    .getaDemo .getaDemo_content .getaDemo_form .request
+    {
+        padding: 12px 22px;
+    }
+    
+    .getaDemo .getaDemo_content .getaDemo_form  
+    {
+        text-decoration: none;
+        color: #FFF;
+        letter-spacing: 0.05rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px ) {
+    .getaDemo img.background
+    {
+        top: -10%;
+    }
+    .getaDemo .getaDemo_content 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .getaDemo .getaDemo_content  .getaDemo_image 
+    {
+        margin-left: 0;
+    }
+
+    .getaDemo .getaDemo_content  .getaDemo_image svg
+    {
+        width: 400px;
+        margin-left: 10%;
+    }
+    .getaDemo .getaDemo_content .getaDemo_form  
+    {
+        
+        padding-top:0;
+        margin-left: 0;
+        text-decoration: none;
+        color: #FFF;
+        letter-spacing: 0.05rem;
+        transform: translateY(-50px);
+    }
+    .getaDemo .getaDemo_content .getaDemo_form h2
+    {
+        font-size: 26px; 
+        text-align: center;
+    }
+
+
+
+    .getaDemo .getaDemo_content .getaDemo_form  form
+    {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .getaDemo .getaDemo_content .getaDemo_form input
+    {
+        width: 300px;
+        
+      
+    }
+    .getaDemo .getaDemo_content .getaDemo_form input::placeholder
+    {
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(136, 126, 165, 1);
+        padding: 16px 3px;
+        transition: opacity .5s ease-in-out;
+    }
+    .getaDemo .getaDemo_content .getaDemo_form input:focus::placeholder 
+    {
+       opacity: 0;
+    }
+    .getaDemo .getaDemo_content .getaDemo_form .request
+    {
+        padding: 12px 22px;
+    
+    
+    }
+  }
+
+
+@media (min-width: 769px) and (max-width: 992px ){
+
+    .getaDemo .getaDemo_content 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .getaDemo img.background
+    {   
+        position: absolute;
+        top: -10%;
+        left: 50%;
+        transform: translateX(-50%);  
+        z-index: -1;
+    }
+
+    .getaDemo .getaDemo_content  .getaDemo_image 
+    {
+        margin-left: 0;
+    }
+
+    .getaDemo .getaDemo_content  .getaDemo_image svg
+    {
+        width: 400px;
+        margin-left: 10%;
+    }
+    .getaDemo .getaDemo_content .getaDemo_form 
+    {
+        
+        padding-top:0;
+        margin-left: 0;
+        transform: translateY(-120px);
+        text-decoration: none;
+        letter-spacing: 0.05rem;
+    }
+
+    .getaDemo .getaDemo_content .getaDemo_form h2
+    { 
+        font-size: 35px; 
+        text-align: center;
+    }
+
+    .getaDemo .getaDemo_content .getaDemo_form  form
+    {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .getaDemo .getaDemo_content .getaDemo_form input
+    {
+        width: 300px;
+        
+      
+    }
+    .getaDemo .getaDemo_content .getaDemo_form input::placeholder
+    {
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(136, 126, 165, 1);
+        padding: 16px 3px;
+        transition: opacity .5s ease-in-out;
+    }
+    .getaDemo .getaDemo_content .getaDemo_form input:focus::placeholder 
+    {
+       opacity: 0;
+    }
+    .getaDemo .getaDemo_content .getaDemo_form .request
+    {
+        padding: 12px 22px;
+    }
+    
+   
+    
+
+}
+
+
+
+
+
+
