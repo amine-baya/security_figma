@@ -47,6 +47,7 @@ const Header = () => {
     }
     return (
         <>
+        {showMenu && <div onClick={() => closeHandeler()} className="overlay1" ></div>}
             <div className={ showMenu ? "menu_side menu_side_show" : "menu_side menu_side_hide" } >
                <span> <i className={ close ? "fas fa-times close_menu close_menu_hide" : "fas fa-times close_menu close_menu_show "} onClick={()=> closeHandeler()}  ></i> </span> 
             <ul>
