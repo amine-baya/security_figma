@@ -5,9 +5,10 @@ import { Link } from 'react-scroll'
 const PointSvg = (props) => {
     const [Bool , setbool] = useState(true)
 
-    return (
+    console.log(props);
+    return ( 
         <>
-        <div className="pointSvg" onClick={() => setbool(!Bool)}>
+        <div className= {props.show ? 'pointSvgs' : 'pointSvg'  } onClick={() => setbool(!Bool)}>
    {  Bool ?  <svg width="138" height="138" viewBox="0 0 138 138" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_1005:53330)">
 <rect x="54" y="30" width="30" height="30" rx="15" fill="#256BF6"/>

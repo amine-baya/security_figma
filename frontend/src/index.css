@@ -42,12 +42,24 @@ ul {
 }
 
 .pointSvg {
-  position: fixed;
+  position: fixed; 
   top: 100px;
   left: 40px;
   z-index: 200;
   cursor: pointer;
+  
 }
+
+.pointSvgs {
+  position: fixed; 
+  top: 600px;
+  left: -100px;
+  z-index: 200;
+  cursor: pointer;
+  
+  
+}
+
 .pointSvg_actie
 {
   transform: translate(-8px, -25px);

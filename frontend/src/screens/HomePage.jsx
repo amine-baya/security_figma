@@ -16,11 +16,17 @@ const HomePage = ({history}) => {
 
     const [bool, setbool] = useState(true)
     const [bool1, setbool1] = useState(1)
-    let delay = 6000
+    const [showPointSvg, setShowPointSvg] = useState(true)
+    
+  
     
     let mehdi
     
     useEffect(() => {
+
+
+        
+
             mehdi = setTimeout(() => {
                     if (bool1 === 4) {
                         setbool1(1)
@@ -32,11 +38,35 @@ const HomePage = ({history}) => {
                        
                     }
                     
-            
-                }, 10000 );
+                }, 4000 );
                 
+               
               
-            }, [bool1])           
+            }, [bool1])       
+            
+            
+            useEffect(() => {
+
+                window.addEventListener('scroll', () => {
+                    
+                    if(window.scrollY > 300){
+                        setShowPointSvg(false)
+                        
+                    }else{
+                        setShowPointSvg(true)
+                    }
+
+                  });
+
+
+
+
+
+
+
+
+               
+            }, [window.scrollY])
 
 
         
@@ -45,13 +75,16 @@ const HomePage = ({history}) => {
             setbool1(a)
            
         }
-        
+
+       
+
+     
 
     return (
         <div>
-            < PointSvg />
+            < PointSvg show={showPointSvg} />  
             
-            <div className="homePage_h1"><h1>Security <Typewriter  options={{strings: test.text, autoStart: true, loop: true}}/> </h1></div>
+            <div className="homePage_h1"><h1>Security made <Typewriter  options={{strings: test.text, autoStart: true, loop: true}}/> </h1></div>
             {bool  && <> 
              {bool1 === 1 && < Org change={(a,b) => handeller(a, b) } />}
              {bool1 === 2 && <Effective change={(a,b)=> handeller(a, b)}/>}

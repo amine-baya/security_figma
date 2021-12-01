@@ -1,13 +1,12 @@
-import React, {useEffect,useState} from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-scroll'
 import HomeSvg from "./HomeSvg.jsx"
 import Lens from '../svg/Lens.jsx'
 import Shadow from '../svg/shadow.png'
 import SmartData from '../svg/SmartData.jsx'
-import PointSvg from '../svg/PointSvg'
-import Typewriter from 'typewriter-effect'
+
 import {motion} from 'framer-motion'
-import test from "../test.json"
+
 
 
 

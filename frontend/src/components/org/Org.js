@@ -1,4 +1,4 @@
-import React,{useEffect, useRef, useState} from 'react'
+import React,{useState} from 'react'
 import './org.css'
 import HomeSvg from "../HomeSvg.jsx"
 import Shadow from '../../svg/shadow.png'
@@ -8,6 +8,7 @@ import { Link } from 'react-scroll'
 
 const Org = (props) => {
 
+     
 
     const buttonVariants ={
         hover: {
@@ -17,6 +18,9 @@ const Org = (props) => {
             }
         }
     }
+
+
+    
 
   
    
@@ -33,7 +37,7 @@ const Org = (props) => {
                     <img initial={{opacity: 0 }}  src={Shadow} alt="sorry" className="svg_shadow_2"/>
 
                      
-                    < HomeSvg stroks1="4" stroks2="2" stroks3="2" stroks4="2"/>
+                    < HomeSvg  stroks1="4" stroks2="2" stroks3="2" stroks4="2"/>
                     <div  className="home_one" onClick={()=> props.change(4,10)} ></div>
                     <div className="home_two" onClick={()=> props.change(3,10)} ></div>
                     <div className="home_three" onClick={()=> props.change(2,10)} ></div>

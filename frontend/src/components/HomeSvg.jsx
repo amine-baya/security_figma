@@ -18,7 +18,7 @@ const HomeSvg = (props) => {
 <circle opacity="0.3" cx="475" cy="456.268" r="154.684" stroke="#75DFFF"/>
 <circle opacity="0.3" cx="475" cy="456.268" r="139.312" stroke="#75DFFF"/>
 <circle opacity="0.3" cx="475" cy="456.268" r="123.208" stroke="#75DFFF"/>
-<circle opacity="0.3" cx="475" cy="456.268" r="91" stroke="#75DFFF"/>
+<circle opacity="0.3" cx="475" cy="456.268" r="91"      stroke="#75DFFF"/>
 <circle opacity="0.3" cx="475" cy="456.268" r="74.896" stroke="#75DFFF"/>
 <circle opacity="0.3" cx="475" cy="456.268" r="59.524" stroke="#75DFFF"/>
 <circle opacity="0.3" cx="475" cy="456.268" r="26.584" stroke="#75DFFF"/>
