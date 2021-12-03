@@ -1,5 +1,4 @@
 import React from 'react'
-import GetaDemo from '../get_a_demo/GetaDemo'
 import Map from "../../svg/Map.jsx"
 import Server from "../../svg/Server.jsx"
 import Discover from "../../svg/Discover.jsx"

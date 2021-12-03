@@ -4,7 +4,7 @@ const Cost = () => {
     return (
         <div className="cost">
             <svg width="149" height="240" viewBox="0 0 149 240" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1005:54670)">
+<g clipPath="url(#clip0_1005:54670)">
 <path d="M148.994 187.083V196.906C149 197.001 149 197.097 148.994 197.192V197.616H148.946C148.734 198.664 147.935 199.679 146.545 200.492L80.732 238.581C77.4339 240.499 72.0681 240.499 68.7488 238.581L2.51804 200.494C1.11642 199.688 0.305878 198.672 0.0825415 197.618H0.0151367V186.859C0.0151367 188.109 0.858424 189.352 2.51804 190.31L68.7488 228.398C72.07 230.315 77.4339 230.315 80.732 228.398L146.539 190.314C148.091 189.417 148.909 188.257 148.994 187.083Z" fill="url(#paint0_linear_1005:54670)"/>
 <path d="M146.499 184.169L80.2679 146.082C76.9467 144.164 71.5828 144.164 68.2847 146.082L2.46404 184.169C-0.835946 186.086 -0.809002 189.173 2.50254 191.083L68.7449 229.171C72.0641 231.088 77.428 231.088 80.728 229.171L146.539 191.081C149.837 189.164 149.812 186.079 146.499 184.169Z" fill="url(#paint1_linear_1005:54670)"/>
 <path d="M146.499 183.402L80.2679 145.315C76.9467 143.397 71.5828 143.397 68.2847 145.315L2.46404 183.402C-0.835946 185.319 -0.809002 188.406 2.50254 190.316L68.7449 228.404C72.0641 230.321 77.428 230.321 80.728 228.404L146.539 190.314C149.837 188.397 149.812 185.312 146.499 183.402Z" fill="url(#paint2_linear_1005:54670)"/>
@@ -8263,9 +8263,9 @@ const Cost = () => {
 <linearGradient id="paint429_linear_1005:54670" x1="74.3745" y1="4.57723" x2="74.3745" y2="103.439" gradientUnits="userSpaceOnUse">
 <stop/>
 
-<stop offset="0.39" stop-color="#064046" stop-opacity="0.29"/>
-<stop offset="0.59" stop-color="#0A707B" stop-opacity="0.44"/>
-<stop offset="0.8" stop-color="#10ACBD" stop-opacity="0.56"/>
+<stop offset="0.39" stop-color="#064046" stopOpacity="0.29"/>
+<stop offset="0.59" stop-color="#0A707B" stopOpacity="0.44"/>
+<stop offset="0.8" stop-color="#10ACBD" stopOpacity="0.56"/>
 <stop offset="0.99" stop-color="#15E8FF"/>
 </linearGradient>
 <linearGradient id="paint430_linear_1005:54670" x1="74.3573" y1="104.284" x2="74.3573" y2="176.768" gradientUnits="userSpaceOnUse">
@@ -13813,7 +13813,7 @@ const Cost = () => {
 <stop offset="1"/>
 </radialGradient>
 <linearGradient id="paint857_linear_1005:54670" x1="48393.3" y1="-453.077" x2="48393.3" y2="55524" gradientUnits="userSpaceOnUse">
-<stop stop-color="#01064A" stop-opacity="0"/>
+<stop stop-color="#01064A" stopOpacity="0"/>
 <stop offset="0.29" stop-color="#085186"/>
 <stop offset="0.63" stop-color="#0FA2C7"/>
 <stop offset="0.88" stop-color="#13D4EF"/>
@@ -19367,8 +19367,8 @@ const Cost = () => {
 
 
 
-<stop offset="0.59" stop-color="#0A707B" stop-opacity="0.2"/>
-<stop offset="0.8" stop-color="#10ACBD" stop-opacity="0.6"/>
+<stop offset="0.59" stop-color="#0A707B" stopOpacity="0.2"/>
+<stop offset="0.8" stop-color="#10ACBD" stopOpacity="0.6"/>
 <stop offset="0.99" stop-color="#15E8FF"/>
 </linearGradient>
 <linearGradient id="paint1286_linear_1005:54670" x1="83992" y1="43580.8" x2="83992" y2="73878.7" gradientUnits="userSpaceOnUse">
@@ -24918,10 +24918,10 @@ const Cost = () => {
 <linearGradient id="paint1713_linear_1005:54670" x1="74.3745" y1="46.1504" x2="74.3745" y2="145.013" gradientUnits="userSpaceOnUse">
 <stop/>
 <stop offset="0.08" stop-color="#010809"/>
-<stop offset="0.22" stop-color="#031D20" stop-opacity="0.49"/>
-<stop offset="0.39" stop-color="#064046" stop-opacity="0.29"/>
-<stop offset="0.59" stop-color="#0A707B" stop-opacity="0.44"/>
-<stop offset="0.8" stop-color="#10ACBD" stop-opacity="0.56"/>
+<stop offset="0.22" stop-color="#031D20" stopOpacity="0.49"/>
+<stop offset="0.39" stop-color="#064046" stopOpacity="0.29"/>
+<stop offset="0.59" stop-color="#0A707B" stopOpacity="0.44"/>
+<stop offset="0.8" stop-color="#10ACBD" stopOpacity="0.56"/>
 <stop offset="0.99" stop-color="#15E8FF"/>
 </linearGradient>
 <linearGradient id="paint1714_linear_1005:54670" x1="92945.1" y1="52309.2" x2="92945.1" y2="82604.9" gradientUnits="userSpaceOnUse">

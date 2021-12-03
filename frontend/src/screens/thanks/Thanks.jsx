@@ -1,6 +1,5 @@
 import React from 'react'
 import "./thanks.css"
-import background from "../../svg/background.svg"
 import github from "../../svg/github.svg"
 import twitter from "../../svg/twitter.svg"
 import Meta from '../../svg/Meta'

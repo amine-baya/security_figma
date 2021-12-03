@@ -1,5 +1,5 @@
 import React from 'react'
-import GetaDemo from '../get_a_demo/GetaDemo'
+
 import './security.css'
 import SecuritySvg from "../../svg/SecuritySvg.jsx"
 import ServerMaint from "../../svg/ServerMaint.jsx"

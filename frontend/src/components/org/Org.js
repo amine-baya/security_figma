@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './org.css'
 import HomeSvg from "../HomeSvg.jsx"
 import Shadow from '../../svg/shadow.png'
@@ -48,7 +48,7 @@ const Org = (props) => {
                     <p>to build and deliver secure systems <br /> and applications</p>
                     
                     <Link activeClass="active"spy={true} smooth={true} duration={500} offset={-70} to='vision_section'>
-                        <span  variants={buttonVariants} whileHover="hover" className="spanVision">  iTALOS VISION </span>
+                        <span  variants={buttonVariants} whilehover="hover" className="spanVision">  iTALOS VISION </span>
                     </Link>
                 </div>
             

@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
 import background from "../../svg/background.svg"
 import Open from "../../svg/OpenSvg"
 import { motion } from 'framer-motion'
@@ -62,7 +61,7 @@ const GetaDemo = (props) => {
                         <h2> <span className="br"> We connect the dots,</span> <span className="wondering_span" > wondering how? </span> </h2>
                         <form onSubmit={handleSubmit} >
                         <input type="email" name="email" placeholder={"Enter your email"} value={email} onChange={handleEmail} required={true} />
-                         <motion.button type="submit" variants={buttonVariants} whileHover="hover" className="request"> Request a demo  </motion.button>                  
+                         <motion.button type="submit" variants={buttonVariants} whilehover="hover" className="request"> Request a demo  </motion.button>                  
                               
                         </form>
                 </div>

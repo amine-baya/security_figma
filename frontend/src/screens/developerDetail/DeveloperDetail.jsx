@@ -1,5 +1,4 @@
-import React,{useState} from 'react'
-import GetaDemo from '../get_a_demo/GetaDemo'
+import React from 'react'
 import Hero from "../../svg/Hero.jsx"
 import Empower from "../../svg/Empower.jsx"
 import Office from "../../svg/Office.jsx"
@@ -9,11 +8,7 @@ import ServerSecurityOff from "../../svg/ServerSecurityOff.jsx"
 import './developerDetail.css'
  
 const DeveloperDetail = ({history}) => { 
-    const [test, setTest] = useState(false)
-
-    const houni = text =>{
-       setTest(text)
-      }  
+   
 
 
     return (

@@ -1,14 +1,12 @@
-import React,{useEffect,useState} from 'react'
+import React,{useState} from 'react'
 import { Link } from 'react-scroll'
 import HomeSvg from "./HomeSvg.jsx"
 import Shadow from '../svg/shadow.png'
 import Sword from '../svg/Sword.jsx'
 import Anti from '../svg/Anti.jsx'
 import Modelin from '../svg/Modelin.jsx'
-import PointSvg from '../svg/PointSvg'
-import Typewriter from 'typewriter-effect'
 import {motion} from 'framer-motion'
-import test from "../test.json"
+
 
 
 const Easy = (props) => {

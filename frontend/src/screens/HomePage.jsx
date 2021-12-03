@@ -8,19 +8,19 @@ import Effective from '../components/Effective'
 import Leaders from './leaders/Leaders'
 import SecurityDetail from './securityDetail/SecurityDetail'
 import Vision from './vision/Vision'
-import test from '../test.json'
+import conf from '../configuration.json'
 import Typewriter from 'typewriter-effect'
 
 
 const HomePage = ({history}) => {
 
-    const [bool, setbool] = useState(true)
+    const [bool] = useState(true)
     const [bool1, setbool1] = useState(1)
     const [showPointSvg, setShowPointSvg] = useState(true)
     
   
     
-    let mehdi
+    let mehdi;
     
     useEffect(() => {
 
@@ -57,16 +57,8 @@ const HomePage = ({history}) => {
                     }
 
                   });
-
-
-
-
-
-
-
-
                
-            }, [window.scrollY])
+            },window.scrollY)
 
 
         
@@ -84,7 +76,7 @@ const HomePage = ({history}) => {
         <div>
             < PointSvg show={showPointSvg} />  
             
-            <div className="homePage_h1"><h1>Security made <Typewriter  options={{strings: test.text, autoStart: true, loop: true}}/> </h1></div>
+            <div className="homePage_h1"><h1>Security made <Typewriter  options={{strings: conf.text, autoStart: true, loop: true}}/> </h1></div>
             {bool  && <> 
              {bool1 === 1 && < Org change={(a,b) => handeller(a, b) } />}
              {bool1 === 2 && <Effective change={(a,b)=> handeller(a, b)}/>}

@@ -75,8 +75,8 @@ const Effective = (props) => {
                     <motion.div className="home_about" initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay:0.2, duration:2}} >
                     <h2>Empowering <span>Leaders</span></h2>
                     <p>to continuously monitor and measure the holistic <br /> security posture of their organizations</p>
-                    <Link  tactiveClass="active"spy={true} smooth={true} to="leaders_section" duration={500} offset={-70}>
-                        <motion.span variants={buttonVariants} whileHover="hover" className="spanVision"> KNOW MORE </motion.span>  </Link>
+                    <Link  activeClass="active"spy={true} smooth={true} to="leaders_section" duration={500} offset={-70}>
+                        <motion.span variants={buttonVariants} whilehover="hover" className="spanVision"> KNOW MORE </motion.span>  </Link>
                 </motion.div>
         </div>
         

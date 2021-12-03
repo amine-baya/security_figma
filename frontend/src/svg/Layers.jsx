@@ -23,21 +23,21 @@ const Layers = () => {
 <path d="M101.887 28.0212L54.6392 0.747073C52.9118 -0.249024 50.1133 -0.249024 48.3978 0.747073L1.45871 28.0212C-0.256789 29.0212 -0.248884 30.6419 1.45871 31.638L48.7061 58.912C50.4334 59.9081 53.2281 59.9081 54.9475 58.912L101.883 31.638C103.602 30.6379 103.594 29.0212 101.883 28.0212" fill="url(#paint1_linear_1005:52511)"/>
 <defs>
 <linearGradient id="paint0_linear_1005:52511" x1="136258" y1="40933.6" x2="163257" y2="40933.6" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00D7FF"/>
-<stop offset="0.12" stop-color="#00D2FB"/>
-<stop offset="0.26" stop-color="#00C5EF"/>
-<stop offset="0.41" stop-color="#00AEDC"/>
-<stop offset="0.56" stop-color="#008FC0"/>
-<stop offset="0.71" stop-color="#01669D"/>
-<stop offset="0.87" stop-color="#013573"/>
-<stop offset="1" stop-color="#01064A"/>
+<stop stopColor="#00D7FF"/>
+<stop offset="0.12" stopColor="#00D2FB"/>
+<stop offset="0.26" stopColor="#00C5EF"/>
+<stop offset="0.41" stopColor="#00AEDC"/>
+<stop offset="0.56" stopColor="#008FC0"/>
+<stop offset="0.71" stopColor="#01669D"/>
+<stop offset="0.87" stopColor="#013573"/>
+<stop offset="1" stopColor="#01064A"/>
 </linearGradient>
 <linearGradient id="paint1_linear_1005:52511" x1="64.2318" y1="5.64028" x2="35.4413" y2="59.4495" gradientUnits="userSpaceOnUse">
-<stop stop-color="#0073A9"/>
-<stop offset="0.32" stop-color="#004480"/>
-<stop offset="0.61" stop-color="#012263"/>
-<stop offset="0.84" stop-color="#010D51"/>
-<stop offset="1" stop-color="#01064A"/>
+<stop stopColor="#0073A9"/>
+<stop offset="0.32" stopColor="#004480"/>
+<stop offset="0.61" stopColor="#012263"/>
+<stop offset="0.84" stopColor="#010D51"/>
+<stop offset="1" stopColor="#01064A"/>
 </linearGradient>
 </defs>
 </svg>

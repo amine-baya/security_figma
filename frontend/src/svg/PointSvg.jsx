@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 const PointSvg = (props) => {
     const [Bool , setbool] = useState(true)
 
-    console.log(props);
+    
     return ( 
         <>
         <div className= {props.show ? 'pointSvgs' : 'pointSvg'  } onClick={() => setbool(!Bool)}>
@@ -36,15 +36,15 @@ const PointSvg = (props) => {
 </g>
 <g filter="url(#filter1_d_1005:53297)">
 <Link activeClass="active"spy={true} smooth={true} duration={500} offset={-70} to='leaders_section'> <rect x="74" y="75" width="120" height="120" rx="60" fill="#051A4E" /> </Link>
-<rect x="75.5" y="76.5" width="117" height="117" rx="58.5" stroke="#FFA641" stroke-width={props.strokeL}/>
+<rect x="75.5" y="76.5" width="117" height="117" rx="58.5" stroke="#FFA641" strokeWidth={props.strokeL}/>
 </g>
 <g filter="url(#filter2_d_1005:53297)">
 <Link activeClass="active"spy={true} smooth={true} duration={500} offset={-70} to='security_detail_section'><rect x="94" y="95" width="80" height="80" rx="40" fill="#051A4E" /> </Link>
-<rect x="94.5" y="95.5" width="79" height="79" rx="39.5" stroke="#25C395" stroke-width={props.strokeS}/>
+<rect x="94.5" y="95.5" width="79" height="79" rx="39.5" stroke="#25C395" strokeWidth={props.strokeS}/>
 </g>
 <g filter="url(#filter3_d_1005:53297)">
 <Link activeClass="active"spy={true} smooth={true} duration={500} offset={-70} to='developer_detail_section'> <rect x="114" y="114" width="40" height="40" rx="20" fill="#051A4E" /> </Link>
-<rect x="114.5" y="114.5" width="39" height="39" rx="19.5" stroke="#F71735" stroke-width={props.strokeD}/>
+<rect x="114.5" y="114.5" width="39" height="39" rx="19.5" stroke="#F71735" strokeWidth={props.strokeD}/>
 </g>
 <g filter="url(#filter4_d_1005:53297)">
 <rect x="60" y="60" width="30" height="30" rx="15" fill="#256BF6"/>
